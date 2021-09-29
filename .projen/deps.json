@@ -1,6 +1,11 @@
 {
   "dependencies": [
     {
+      "name": "@aws-cdk/assert",
+      "version": "^1.95.2",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -15,26 +20,6 @@
     },
     {
       "name": "@typescript-eslint/parser",
-      "type": "build"
-    },
-    {
-      "name": "cdk8s-cli",
-      "version": "^1.0.0-beta.10",
-      "type": "build"
-    },
-    {
-      "name": "cdk8s-plus-17",
-      "version": "^1.0.0-beta.10",
-      "type": "build"
-    },
-    {
-      "name": "cdk8s",
-      "version": "^1.0.0-beta.10",
-      "type": "build"
-    },
-    {
-      "name": "constructs",
-      "version": "^3.2.34",
       "type": "build"
     },
     {
@@ -63,6 +48,22 @@
       "type": "build"
     },
     {
+      "name": "jsii",
+      "type": "build"
+    },
+    {
+      "name": "jsii-diff",
+      "type": "build"
+    },
+    {
+      "name": "jsii-docgen",
+      "type": "build"
+    },
+    {
+      "name": "jsii-pacmak",
+      "type": "build"
+    },
+    {
       "name": "json-schema",
       "type": "build"
     },
@@ -76,12 +77,12 @@
       "type": "build"
     },
     {
-      "name": "ts-jest",
+      "name": "standard-version",
+      "version": "^9",
       "type": "build"
     },
     {
-      "name": "ts-node",
-      "version": "^9",
+      "name": "ts-jest",
       "type": "build"
     },
     {
@@ -89,18 +90,38 @@
       "type": "build"
     },
     {
-      "name": "cdk8s-plus-17",
-      "version": "^1.0.0-beta.10",
-      "type": "runtime"
+      "name": "@aws-cdk/aws-ec2",
+      "version": "^1.95.2",
+      "type": "peer"
     },
     {
-      "name": "cdk8s",
-      "version": "^1.0.0-beta.10",
-      "type": "runtime"
+      "name": "@aws-cdk/aws-eks",
+      "version": "^1.95.2",
+      "type": "peer"
+    },
+    {
+      "name": "@aws-cdk/core",
+      "version": "^1.95.2",
+      "type": "peer"
     },
     {
       "name": "constructs",
-      "version": "^3.2.34",
+      "version": "^3.2.27",
+      "type": "peer"
+    },
+    {
+      "name": "@aws-cdk/aws-ec2",
+      "version": "^1.95.2",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-eks",
+      "version": "^1.95.2",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/core",
+      "version": "^1.95.2",
       "type": "runtime"
     }
   ],

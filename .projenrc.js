@@ -5,6 +5,11 @@ const project = new AwsCdkConstructLibrary({
   cdkVersion: '1.95.2',
   defaultReleaseBranch: 'main',
   name: 'projen2',
+  cdkDependencies: [
+    '@aws-cdk/aws-ec2',
+    '@aws-cdk/aws-eks',
+    '@aws-cdk/core',
+  ],
   repositoryUrl: 'https://github.com/tonz123/projen2.git',
 
   // cdkDependencies: undefined,      /* Which AWS CDK modules (those that start with "@aws-cdk/") does this library require when consumed? */
